@@ -1,0 +1,14 @@
+{
+    "tests": [
+    {
+        "name": "Check for a welcome message",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest tests/check_welcome.py::test_welcome_online",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 20
+      }
+    ]
+  }
